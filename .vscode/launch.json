@@ -9,16 +9,11 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/AzureTask.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/FirstPulumi.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            "stopAtEntry": false,
-            "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development",
-                "AZURE_AUTH_LOCATION": "my.azureauth",
-                "AZURE_CERT_LOCATION": "kubtest_key.pem"
-            },
+            "stopAtEntry": false
         },
         {
             "name": ".NET Core Attach",

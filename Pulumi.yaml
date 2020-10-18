@@ -1,0 +1,3 @@
+name: FirstPulumi
+runtime: dotnet
+description: Start pulumi with C#
